@@ -35,25 +35,25 @@
     },
     "HEROKU_API_KEY": {
       "description": "add your heroku api key here",
-      "required": true
+      "require": false
     },
     "HEROKU_APP_NAME": {
       "description": "should match to your app name you placed above copy paste it here for the heroku vars setting",
-      "required": true
+      "required": false
     },
     "BOTNAME": {
       "description": "Enter name for your bot.",
-      "value": "",
-      "required": true
+      "value": "VIRUSI",
+      "required": false
     },
     "PM_PERMIT": {
       "description": "type true if you don't want anyone to access your bot in pm.",
-      "value": "true",
+      "value": "false",
       "required": false
     },
     "EMOJI": {
       "description": "Add your favorite emoji ",
-         "value": "💚",
+         "value": "🦠",
       "required": false
     },
     "SESSION": {
@@ -78,7 +78,7 @@
         },
 "ANTIDELETE": {
       "description": "Type true if you want bot to undelete messages.",
-         "value": "false",
+         "value": "true",
       "required": false
         },
 "CHATBOT": {
@@ -140,7 +140,7 @@
     },
     "WA_PRESENCE": {
       "description": "This is your WhatsApp Presence Status: Here's how to set it up: Type *typing* if you want bot to show typing..., Type *recording* if you want bot to show recording..., Type *online* if you want bot to be always online, Leave this field blank if you want bot to show your actual presence.",
-      "value": "typing",
+      "value": "",
       "required": false
     },
     "MODE": {
